@@ -151,20 +151,45 @@ nav ul li a:hover {
     border-radius: 5px;
     font-size: 1.1em;
     }
-   @media screen and (max-width: 768px){
-    header{
-      padding: 10px 0;
-    }
-    header h1{
-      font-size: 20px;
-    }
-    nav ul li{
-      margin-right: 10px;
-    }
-    section{
-      padding:38px 0;
-    }
-   }
+    
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 14px; 
+  }
+  header {
+      text-align: center; 
+  }
+  .underheader {
+      text-align: center; 
+  }
+  section {
+      padding: 20px; 
+  }
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .box {
+      width: 90%; 
+      margin: 10px 0;
+  }
+  .text {
+      font-size: 12px; 
+  }
+  footer {
+      text-align: center; 
+  }
+ 
+  #about-me img {
+      display: block; 
+      margin: 0 auto 10px;
+  }
+  #about-me .text {
+      text-align: center; 
+      margin: 0 auto; 
+  }
+}
     
    
  
